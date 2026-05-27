@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>Portal de Treinamentos - SP3</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f6f8;
+    }
+
+    /* Menu superior */
+    header {
+      height: 64px;
+      background-color: #111827;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    /* Conteúdo central */
+    main {
+      height: calc(100vh - 64px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #ffffff;
+      width: 280px;
+      padding: 32px 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card h2 {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #2563eb;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .card a:hover {
+      background-color: #1e40af;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Portal de Treinamentos – SP3
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="card">
+        <h2>Treinamento Portal Infinity – SP3</h2>
+        <a href="https://www.canva.com/design/DAHKyDenZFQ/WjPJEFEnRqt2t_avqrPqdg/view?embed" target="_blank" rel="noopener">
+          Acessar treinamento
+        </a>
+      </div>
+
+      <div class="card">
+        <h2>Bolsa Protegida – SP3</h2>
+        <a href="https://treinamentosp3.my.canva.site/bolsa-protegida" target="_blank" rel="noopener">
+          Acessar treinamento
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
